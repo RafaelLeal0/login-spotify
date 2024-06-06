@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="imgs/logospotfy.jpg" alt="Spotify Logo" class="spotify-logo">
+            <h1>Entrar no Spotify</h1>
+            <div class="login-options">
+                <button class="login-button google">
+                    <img src="imgs/logo.google.png" alt="Google Logo" class="google-logo">
+                    <span>Continuar com o Google</span>
+                </button>
+                <button class="login-button facebook">
+                    <img src="imgs/logo.face-removebg-preview.png" alt="Facebook Logo" class="login-logo">
+                    <span>Continuar com o Facebook</span>
+                </button>
+                <button class="login-button apple">
+                    <img src="imgs/png-clipart-apple-logo-logo-apple-icon-information-apple-logo-logo-monochrome-thumbnail-removebg-preview.png" alt="Apple Logo" class="login-logo">
+                    <span>Continuar com a Apple</span>
+                </button>
+                <button class="login-button phone">Continuar com um número de telefone</button>
+            </div>
+            <form class="login-form" action="inicio.html" method="get">
+                <input type="text" placeholder="E-mail ou nome de usuário" class="input-field">
+                <input type="password" placeholder="Senha" class="input-field">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me" checked>
+                    <label for="remember-me">Lembrar de mim</label>
+                </div>
+                <button type="submit" class="submit-button">Entrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
